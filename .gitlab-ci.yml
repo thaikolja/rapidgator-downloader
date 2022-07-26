@@ -3,4 +3,10 @@
       - test
     test-job-example:
       stage: test
-      script: python3 --version && pip3 --version
+      script:
+        - python3 --version
+        - pip install requests
+        - apt update
+        - apt upgrade
+        - apt add util-linux pciutils usbutils coreutils binutils findutils grep
+        - apt add python python-dev py-pip
