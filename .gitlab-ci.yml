@@ -1,5 +1,3 @@
-# The names and order of the pipeline stages
-    image: alpine:latest
     stages:
       - test
     test-job-example:
