@@ -5,4 +5,4 @@ stages:
   - test
 test-job-example:
   stage: test
-  script: python3 --version && touch /Users/kolja/docki,.txt
+  script: python3 --version
