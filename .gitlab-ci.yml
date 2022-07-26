@@ -4,4 +4,4 @@
       stage: test
       script:
         - python3 --version
-        - pip install requests
+        #- pip install requests
