@@ -3,10 +3,6 @@
 # The names and order of the pipeline stages
 stages:
   - test
-  - deploy
 test-job-example:
   stage: test
-  script: echo 'Testing first function'
-deploy-job-example:
-  stage: deploy
-  script: echo 'Jetzt deploy'
+  script: python3 --version
