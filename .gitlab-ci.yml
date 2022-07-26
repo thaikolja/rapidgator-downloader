@@ -1,5 +1,5 @@
 # The names and order of the pipeline stages
-    image: docker:latest
+    image: alpine:latest
     stages:
       - test
     test-job-example:
