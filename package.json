@@ -1,0 +1,19 @@
+{
+  "name": "rapidgator-downloader",
+  "version": "1.0.0",
+  "description": "This command line tool lets you download files from rapidgator.com with our premium account using one line. It is meant for web servers (SSH required) to increase download speed and avoid timeouts. Before running, please read below.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://thaikolja@gitlab.com/thaikolja/rapidgator-downloader.git"
+  },
+  "author": "thaikolja <kolja.nolte@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://gitlab.com/thaikolja/rapidgator-downloader/issues"
+  },
+  "homepage": "https://gitlab.com/thaikolja/rapidgator-downloader#readme"
+}
