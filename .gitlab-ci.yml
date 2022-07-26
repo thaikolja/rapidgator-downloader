@@ -1,4 +1,5 @@
 # The names and order of the pipeline stages
+    image: docker:latest
     stages:
       - test
     test-job-example:
