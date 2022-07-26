@@ -13,7 +13,6 @@ Since Rapidgator Downloader is still in `v1.0.0`, some requirements have not yet
 
 ### To run via Python
 
-
 1. Make sure all requirements are met
 2. `git clone https://gitlab.com/thaikolja/rapidgator-downloader.git`
 2. `cd rapidgator-downloader`
