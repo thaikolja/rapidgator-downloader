@@ -1,8 +1,6 @@
-# .gitlab-ci.yml
-
 # The names and order of the pipeline stages
-stages:
-  - test
-test-job-example:
-  stage: test
-  script: python5 --version
+    stages:
+      - test
+    test-job-example:
+      stage: test
+      script: python3 --version && pip3 --version
