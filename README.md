@@ -1,6 +1,8 @@
 # Rapidgator Downloader
 
-This command line tool lets you download files from [rapidgator.net]() with your premium account using one line. It is meant for web servers (SSH required) to increase download speed and avoid timeouts. Before running, please read below.
+This command line tool (CLI) lets you download files from [rapidgator.net](https://rapidgator.net/account/registration/ref/4773870) with your premium account using one line. It is meant for web servers (SSH required) to **increase download speed and avoid timeouts**. Before running, please read below.
+
+>**To avoid any misunderstandings: This tool requires an active rapidgator.net premium account. Without it, this tool is not for you.**
 
 ## 🔧 Requirements
 
@@ -15,10 +17,10 @@ Since Rapidgator Downloader is still in `v1.0.0`, some requirements have not yet
 
 1. Make sure all requirements are met
 2. Run Terminal
-3. **Important:** Open `rget.py` and enter your username and password on line 50
 2. `git clone https://gitlab.com/thaikolja/rapidgator-downloader.git` to download the tool
 2. `cd rapidgator-downloader` to switch into its directory
-3. Run `python3 [FILE_ID] -o 'my-file.zip'` to initiate the download
+4. Open `rget.py` and enter your username and password on line 50
+5. Run `python3 [FILE_ID] -o 'my-file.zip'` to initiate the download
 
 **Replace `[FILE_ID]` with Rapidgator's file ID. It's the long string inside the download URL; a detailed description is below.**
 
@@ -41,9 +43,6 @@ The file ID is the random-looking string in the download URL, after `/file/`.
 **File ID:** `1208f5f462a1f848c44cc90d7a9d12fd` is the file ID
 
 ## 🧨 Examples
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
 
 ## 👨🏼‍💻 Authors
 * [Kolja Nolte](https://www.kolja-nolte.com) / Contact via <kolja.nolte@gmail.com>
